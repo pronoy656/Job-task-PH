@@ -30,17 +30,24 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">daisyUI</a>
+        <img
+          className="border w-24 h-20"
+          src="https://i.ibb.co/gtv269Q/logo.jpg"
+          alt=""
+        />
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
             <a>Home</a>
           </li>
+          <li>
+            <a>About us</a>
+          </li>
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Button</a>
+        <a className="btn">Sign out</a>
       </div>
     </div>
   );

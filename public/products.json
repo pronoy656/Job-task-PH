@@ -1,0 +1,371 @@
+[
+    {
+        "phoneName": "iPhone 13",
+        "productImage": "https://example.com/iphone13.jpg",
+        "priceBDT": 120000,
+        "category": "Smartphone",
+        "ratings": 4.8,
+        "productCreationDateTime": "2023-06-25T14:30:00Z",
+        "description": "The iPhone 13 features a 6.1-inch Super Retina XDR display and the powerful A15 Bionic chip."
+    },
+    {
+        "phoneName": "Samsung Galaxy S21",
+        "productImage": "https://example.com/s21.jpg",
+        "priceBDT": 85000,
+        "category": "Smartphone",
+        "ratings": 4.6,
+        "productCreationDateTime": "2023-07-01T11:00:00Z",
+        "description": "Samsung Galaxy S21 comes with a 6.2-inch Dynamic AMOLED 2X display and Exynos 2100 processor."
+    },
+    {
+        "phoneName": "Xiaomi Mi 11",
+        "productImage": "https://example.com/mi11.jpg",
+        "priceBDT": 55000,
+        "category": "Smartphone",
+        "ratings": 4.5,
+        "productCreationDateTime": "2023-07-10T09:15:00Z",
+        "description": "Xiaomi Mi 11 offers a 108MP camera and Snapdragon 888 processor for high performance."
+    },
+    {
+        "phoneName": "Vivo X60",
+        "productImage": "https://example.com/vivox60.jpg",
+        "priceBDT": 60000,
+        "category": "Smartphone",
+        "ratings": 4.3,
+        "productCreationDateTime": "2023-06-18T16:20:00Z",
+        "description": "Vivo X60 is equipped with a 6.56-inch AMOLED display and Snapdragon 870 chipset."
+    },
+    {
+        "phoneName": "Honor 50",
+        "productImage": "https://example.com/honor50.jpg",
+        "priceBDT": 45000,
+        "category": "Smartphone",
+        "ratings": 4.4,
+        "productCreationDateTime": "2023-06-30T12:45:00Z",
+        "description": "Honor 50 comes with a 108MP camera and Snapdragon 778G processor."
+    },
+    {
+        "phoneName": "Asus ROG Phone 5",
+        "productImage": "https://example.com/rogphone5.jpg",
+        "priceBDT": 95000,
+        "category": "Gaming Phone",
+        "ratings": 4.9,
+        "productCreationDateTime": "2023-07-05T14:10:00Z",
+        "description": "Asus ROG Phone 5 is a gaming beast with Snapdragon 888 and a 144Hz AMOLED display."
+    },
+    {
+        "phoneName": "Oppo Find X3 Pro",
+        "productImage": "https://example.com/findx3pro.jpg",
+        "priceBDT": 75000,
+        "category": "Smartphone",
+        "ratings": 4.7,
+        "productCreationDateTime": "2023-06-20T10:30:00Z",
+        "description": "Oppo Find X3 Pro features a unique camera setup and a 120Hz AMOLED display."
+    },
+    {
+        "phoneName": "iPhone 12",
+        "productImage": "https://example.com/iphone12.jpg",
+        "priceBDT": 100000,
+        "category": "Smartphone",
+        "ratings": 4.8,
+        "productCreationDateTime": "2023-06-15T08:00:00Z",
+        "description": "The iPhone 12 offers a 6.1-inch Super Retina XDR display and A14 Bionic chip."
+    },
+    {
+        "phoneName": "Samsung Galaxy A52",
+        "productImage": "https://example.com/a52.jpg",
+        "priceBDT": 35000,
+        "category": "Smartphone",
+        "ratings": 4.2,
+        "productCreationDateTime": "2023-07-02T13:25:00Z",
+        "description": "Samsung Galaxy A52 offers a 6.5-inch Super AMOLED display and Snapdragon 720G."
+    },
+    {
+        "phoneName": "Xiaomi Redmi Note 10 Pro",
+        "productImage": "https://example.com/note10pro.jpg",
+        "priceBDT": 30000,
+        "category": "Smartphone",
+        "ratings": 4.5,
+        "productCreationDateTime": "2023-06-22T15:40:00Z",
+        "description": "Redmi Note 10 Pro comes with a 108MP camera and a 120Hz AMOLED display."
+    },
+    {
+        "phoneName": "Vivo V21",
+        "productImage": "https://example.com/v21.jpg",
+        "priceBDT": 40000,
+        "category": "Smartphone",
+        "ratings": 4.3,
+        "productCreationDateTime": "2023-06-27T17:30:00Z",
+        "description": "Vivo V21 features a 44MP OIS selfie camera and a 90Hz AMOLED display."
+    },
+    {
+        "phoneName": "Honor 30 Pro",
+        "productImage": "https://example.com/honor30pro.jpg",
+        "priceBDT": 50000,
+        "category": "Smartphone",
+        "ratings": 4.6,
+        "productCreationDateTime": "2023-07-04T12:00:00Z",
+        "description": "Honor 30 Pro is powered by Kirin 990 5G and features a 50MP main camera."
+    },
+    {
+        "phoneName": "Asus Zenfone 8",
+        "productImage": "https://example.com/zenfone8.jpg",
+        "priceBDT": 65000,
+        "category": "Smartphone",
+        "ratings": 4.7,
+        "productCreationDateTime": "2023-06-12T09:45:00Z",
+        "description": "Asus Zenfone 8 is a compact powerhouse with Snapdragon 888 and a 120Hz AMOLED display."
+    },
+    {
+        "phoneName": "Oppo Reno6 Pro",
+        "productImage": "https://example.com/reno6pro.jpg",
+        "priceBDT": 50000,
+        "category": "Smartphone",
+        "ratings": 4.4,
+        "productCreationDateTime": "2023-06-18T14:25:00Z",
+        "description": "Oppo Reno6 Pro features a 64MP quad-camera setup and Dimensity 1200 processor."
+    },
+    {
+        "phoneName": "iPhone 11",
+        "productImage": "https://example.com/iphone11.jpg",
+        "priceBDT": 90000,
+        "category": "Smartphone",
+        "ratings": 4.7,
+        "productCreationDateTime": "2023-07-09T11:15:00Z",
+        "description": "The iPhone 11 offers a 6.1-inch Liquid Retina HD display and A13 Bionic chip."
+    },
+    {
+        "phoneName": "Samsung Galaxy M32",
+        "productImage": "https://example.com/m32.jpg",
+        "priceBDT": 25000,
+        "category": "Smartphone",
+        "ratings": 4.1,
+        "productCreationDateTime": "2023-07-06T13:40:00Z",
+        "description": "Samsung Galaxy M32 comes with a 6000mAh battery and a 90Hz Super AMOLED display."
+    },
+    {
+        "phoneName": "Xiaomi Poco X3 Pro",
+        "productImage": "https://example.com/pocox3pro.jpg",
+        "priceBDT": 30000,
+        "category": "Smartphone",
+        "ratings": 4.5,
+        "productCreationDateTime": "2023-06-29T16:50:00Z",
+        "description": "Poco X3 Pro offers Snapdragon 860 and a 120Hz IPS LCD display."
+    },
+    {
+        "phoneName": "Vivo Y20",
+        "productImage": "https://example.com/y20.jpg",
+        "priceBDT": 15000,
+        "category": "Smartphone",
+        "ratings": 4.0,
+        "productCreationDateTime": "2023-07-01T10:05:00Z",
+        "description": "Vivo Y20 comes with a 5000mAh battery and Snapdragon 460 processor."
+    },
+    {
+        "phoneName": "Honor 20",
+        "productImage": "https://example.com/honor20.jpg",
+        "priceBDT": 35000,
+        "category": "Smartphone",
+        "ratings": 4.3,
+        "productCreationDateTime": "2023-07-07T12:30:00Z",
+        "description": "Honor 20 features a 48MP quad-camera setup and Kirin 980 processor."
+    },
+    {
+        "phoneName": "Asus ROG Phone 3",
+        "productImage": "https://example.com/rogphone3.jpg",
+        "priceBDT": 80000,
+        "category": "Gaming Phone",
+        "ratings": 4.8,
+        "productCreationDateTime": "2023-06-24T11:50:00Z",
+        "description": "Asus ROG Phone 3 is designed for gamers with Snapdragon 865+ and a 144Hz AMOLED display."
+    },
+    {
+        "phoneName": "Oppo A53",
+        "productImage": "https://example.com/a53.jpg",
+        "priceBDT": 17000,
+        "category": "Smartphone",
+        "ratings": 4.1,
+        "productCreationDateTime": "2023-07-08T15:00:00Z",
+        "description": "Oppo A53 offers a 90Hz display and Snapdragon 460 processor at an affordable price."
+    },
+    {
+        "phoneName": "iPhone SE (2020)",
+        "productImage": "https://example.com/iphonese2020.jpg",
+        "priceBDT": 55000,
+        "category": "Smartphone",
+        "ratings": 4.5,
+        "productCreationDateTime": "2023-06-30T14:45:00Z",
+        "description": "The iPhone SE (2020) is a compact phone with A13 Bionic chip and a 4.7-inch Retina HD display."
+    },
+    {
+        "phoneName": "Samsung Galaxy Z Flip3",
+        "productImage": "https://example.com/zflip3.jpg",
+        "priceBDT": 110000,
+        "category": "Foldable Phone",
+        "ratings": 4.7,
+        "productCreationDateTime": "2023-06-26T10:30:00Z",
+        "description": "Samsung Galaxy Z Flip3 is a foldable phone with a 6.7-inch Dynamic AMOLED display."
+    },
+    {
+        "phoneName": "Xiaomi Mi 10T",
+        "productImage": "https://example.com/mi10t.jpg",
+        "priceBDT": 50000,
+        "category": "Smartphone",
+        "ratings": 4.5,
+        "productCreationDateTime": "2023-07-03T13:10:00Z",
+        "description": "Xiaomi Mi 10T offers a 144Hz display and Snapdragon 865 processor."
+    },
+    {
+        "phoneName": "Vivo X50 Pro",
+        "productImage": "https://example.com/x50pro.jpg",
+        "priceBDT": 60000,
+        "category": "Smartphone",
+        "ratings": 4.4,
+        "productCreationDateTime": "2023-06-28T17:05:00Z",
+        "description": "Vivo X50 Pro comes with a Gimbal camera system and Snapdragon 765G."
+    },
+    {
+        "phoneName": "Honor 9X",
+        "productImage": "https://example.com/honor9x.jpg",
+        "priceBDT": 25000,
+        "category": "Smartphone",
+        "ratings": 4.3,
+        "productCreationDateTime": "2023-06-13T11:45:00Z",
+        "description": "Honor 9X features a 48MP triple camera and Kirin 710F processor."
+    },
+    {
+        "phoneName": "Asus Zenfone 7",
+        "productImage": "https://example.com/zenfone7.jpg",
+        "priceBDT": 70000,
+        "category": "Smartphone",
+        "ratings": 4.6,
+        "productCreationDateTime": "2023-07-10T09:20:00Z",
+        "description": "Asus Zenfone 7 features a flip camera module and Snapdragon 865+."
+    },
+    {
+        "phoneName": "Oppo F19 Pro",
+        "productImage": "https://example.com/f19pro.jpg",
+        "priceBDT": 30000,
+        "category": "Smartphone",
+        "ratings": 4.3,
+        "productCreationDateTime": "2023-07-03T08:35:00Z",
+        "description": "Oppo F19 Pro offers a 48MP quad-camera and AMOLED display."
+    },
+    {
+        "phoneName": "iPhone XR",
+        "productImage": "https://example.com/iphonexr.jpg",
+        "priceBDT": 75000,
+        "category": "Smartphone",
+        "ratings": 4.5,
+        "productCreationDateTime": "2023-06-16T14:00:00Z",
+        "description": "The iPhone XR features a 6.1-inch Liquid Retina display and A12 Bionic chip."
+    },
+    {
+        "phoneName": "Samsung Galaxy Note 20",
+        "productImage": "https://example.com/note20.jpg",
+        "priceBDT": 95000,
+        "category": "Smartphone",
+        "ratings": 4.7,
+        "productCreationDateTime": "2023-07-05T11:50:00Z",
+        "description": "Samsung Galaxy Note 20 offers an S Pen experience and Snapdragon 865+."
+    },
+    {
+        "phoneName": "Xiaomi Redmi 9A",
+        "productImage": "https://example.com/redmi9a.jpg",
+        "priceBDT": 10000,
+        "category": "Smartphone",
+        "ratings": 4.0,
+        "productCreationDateTime": "2023-06-19T09:15:00Z",
+        "description": "Redmi 9A is an entry-level phone with a 5000mAh battery and MediaTek Helio G25 processor."
+    },
+    {
+        "phoneName": "Vivo Y12s",
+        "productImage": "https://example.com/y12s.jpg",
+        "priceBDT": 12000,
+        "category": "Smartphone",
+        "ratings": 4.1,
+        "productCreationDateTime": "2023-06-14T15:50:00Z",
+        "description": "Vivo Y12s features a 5000mAh battery and dual-camera setup at an affordable price."
+    },
+    {
+        "phoneName": "Honor Play 4",
+        "productImage": "https://example.com/play4.jpg",
+        "priceBDT": 20000,
+        "category": "Smartphone",
+        "ratings": 4.3,
+        "productCreationDateTime": "2023-06-21T12:20:00Z",
+        "description": "Honor Play 4 is a budget phone with a 6.81-inch display and Kirin 710A processor."
+    },
+    {
+        "phoneName": "Asus ROG Phone 2",
+        "productImage": "https://example.com/rogphone2.jpg",
+        "priceBDT": 75000,
+        "category": "Gaming Phone",
+        "ratings": 4.8,
+        "productCreationDateTime": "2023-07-07T14:35:00Z",
+        "description": "Asus ROG Phone 2 offers Snapdragon 855+ and a 120Hz AMOLED display for gamers."
+    },
+    {
+        "phoneName": "Oppo A74",
+        "productImage": "https://example.com/a74.jpg",
+        "priceBDT": 22000,
+        "category": "Smartphone",
+        "ratings": 4.2,
+        "productCreationDateTime": "2023-07-08T11:10:00Z",
+        "description": "Oppo A74 offers a 5000mAh battery and AMOLED display with 33W fast charging."
+    },
+    {
+        "phoneName": "iPhone XS",
+        "productImage": "https://example.com/iphonexs.jpg",
+        "priceBDT": 105000,
+        "category": "Smartphone",
+        "ratings": 4.7,
+        "productCreationDateTime": "2023-06-17T08:30:00Z",
+        "description": "The iPhone XS features a 5.8-inch Super Retina display and A12 Bionic chip."
+    },
+    {
+        "phoneName": "Samsung Galaxy A32",
+        "productImage": "https://example.com/a32.jpg",
+        "priceBDT": 28000,
+        "category": "Smartphone",
+        "ratings": 4.2,
+        "productCreationDateTime": "2023-06-23T09:55:00Z",
+        "description": "Samsung Galaxy A32 comes with a 64MP quad-camera and a 90Hz AMOLED display."
+    },
+    {
+        "phoneName": "Xiaomi Mi 9",
+        "productImage": "https://example.com/mi9.jpg",
+        "priceBDT": 45000,
+        "category": "Smartphone",
+        "ratings": 4.5,
+        "productCreationDateTime": "2023-06-21T10:20:00Z",
+        "description": "Xiaomi Mi 9 offers Snapdragon 855 and a 48MP triple camera setup."
+    },
+    {
+        "phoneName": "Vivo V20",
+        "productImage": "https://example.com/v20.jpg",
+        "priceBDT": 32000,
+        "category": "Smartphone",
+        "ratings": 4.3,
+        "productCreationDateTime": "2023-07-09T12:50:00Z",
+        "description": "Vivo V20 features a 44MP selfie camera and Snapdragon 720G processor."
+    },
+    {
+        "phoneName": "Honor 8X",
+        "productImage": "https://example.com/8x.jpg",
+        "priceBDT": 24000,
+        "category": "Smartphone",
+        "ratings": 4.2,
+        "productCreationDateTime": "2023-06-15T10:05:00Z",
+        "description": "Honor 8X offers a 6.5-inch display and Kirin 710 processor."
+    },
+    {
+        "phoneName": "Asus Zenfone 6",
+        "productImage": "https://example.com/zenfone6.jpg",
+        "priceBDT": 60000,
+        "category": "Smartphone",
+        "ratings": 4.5,
+        "productCreationDateTime": "2023-06-27T09:35:00Z",
+        "description": "Asus Zenfone 6 features a flip camera and Snapdragon 855 processor."
+    }
+]
