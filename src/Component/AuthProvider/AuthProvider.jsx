@@ -3,6 +3,7 @@ import {
   createUserWithEmailAndPassword,
   getAuth,
   onAuthStateChanged,
+  signInWithEmailAndPassword,
   updateProfile,
 } from "firebase/auth";
 import { app } from "../FireBase/Firebase.config";
@@ -29,6 +30,12 @@ const AuthProvider = ({ children }) => {
     });
   };
 
+  //user log in
+  const userLogin = (email, password) => {
+    setLoading(true);
+    return signInWithEmailAndPassword(auth, email, password);
+  };
+
   useEffect(() => {
     const unsubsCribed = onAuthStateChanged(auth, (currentUser) => {
       setUser(currentUser);
@@ -45,6 +52,7 @@ const AuthProvider = ({ children }) => {
     loading,
     userCreate,
     updateUserProfile,
+    userLogin,
   };
 
   return (

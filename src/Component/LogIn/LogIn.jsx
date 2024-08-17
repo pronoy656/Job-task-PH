@@ -1,13 +1,30 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useContext } from "react";
+import { Link, useLocation, useNavigate } from "react-router-dom";
+import { AuthContext } from "../AuthProvider/AuthProvider";
+import toast from "react-hot-toast";
 
 const LogIn = () => {
+  const { userLogin } = useContext(AuthContext);
+  const location = useLocation();
+  const navigate = useNavigate();
+
   const handleLogIn = (e) => {
     e.preventDefault();
     const email = e.target.email.value;
     const password = e.target.password.value;
     const allInputField = { email, password };
     console.log(allInputField);
+    userLogin(email, password)
+      .then((loginUser) => {
+        console.log(loginUser.user);
+        navigate(location?.state ? location?.state : "/");
+        toast.success("Log in successFully");
+      })
+      .catch((error) => {
+        const errorMessage = error.message;
+        const errorCode = error.code;
+        console.log(errorMessage, errorCode);
+      });
   };
 
   return (
