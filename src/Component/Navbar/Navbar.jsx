@@ -2,6 +2,20 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
+  const navLink = (
+    <>
+      <li>
+        <NavLink to={"/"}>
+          <a>Home</a>
+        </NavLink>
+      </li>
+      <li>
+        <NavLink to={"/aboutUs"}>
+          <a>About Us</a>
+        </NavLink>
+      </li>
+    </>
+  );
   return (
     <div className="navbar bg-base-100">
       <div className="navbar-start">
@@ -26,9 +40,7 @@ const Navbar = () => {
             tabIndex={0}
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
-            <li>
-              <a>Home</a>
-            </li>
+            {navLink}
           </ul>
         </div>
         <img
@@ -38,19 +50,12 @@ const Navbar = () => {
         />
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
-          <li>
-            <a>Home</a>
-          </li>
-          <li>
-            <a>About us</a>
-          </li>
-          <NavLink to={""}>
-            <a>About us</a>
-          </NavLink>
-        </ul>
+        <ul className="menu menu-horizontal px-1">{navLink}</ul>
       </div>
       <div className="navbar-end">
+        <NavLink to={"/logIn"}>
+          <a className="btn">Sign in</a>
+        </NavLink>
         <a className="btn">Sign out</a>
       </div>
     </div>
