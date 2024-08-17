@@ -1,7 +1,16 @@
-import React from "react";
+import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../AuthProvider/AuthProvider";
+import toast from "react-hot-toast";
 
 const Register = () => {
+  const { userCreate, updateUserProfile } = useContext(AuthContext);
+
+  //   success Message
+  const [success, setSuccess] = useState("");
+  // error message
+  const [error, setError] = useState("");
+
   const handleRegister = (e) => {
     e.preventDefault();
     const name = e.target.name.value;
@@ -10,6 +19,25 @@ const Register = () => {
     const password = e.target.password.value;
     const allInputField = { name, PhotoUrl, email, password };
     console.log(allInputField);
+
+    // success and error msg clear
+    setSuccess("");
+    setError("");
+
+    userCreate(email, password)
+      .then((createUser) => {
+        const user = createUser.user;
+        console.log(user);
+        setSuccess("Account created Successfully");
+        toast.success("account created successfully");
+      })
+      .catch((error) => {
+        const errorMessage = error.message;
+        const errorCode = error.code;
+        console.log(errorMessage, errorCode);
+        setError("No account create");
+        toast.error("already uuse this account");
+      });
   };
 
   return (
@@ -73,6 +101,8 @@ const Register = () => {
                 required
               />
             </div>
+            {success && <p>{success}</p>}
+            {error && <p>{error}</p>}
             <h1>
               Already have an account ? Please{" "}
               <Link to={"/logIn"}>
