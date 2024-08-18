@@ -10,6 +10,7 @@ import LogIn from "./Component/LogIn/LogIn.jsx";
 import Register from "./Component/Register/Register.jsx";
 import AuthProvider from "./Component/AuthProvider/AuthProvider.jsx";
 import toast, { Toaster } from "react-hot-toast";
+import PrivateRoute from "./Component/PrivateRoute/PrivateRoute.jsx";
 
 const router = createBrowserRouter([
   {
@@ -18,7 +19,11 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/aboutUs",
-        element: <AboutUs></AboutUs>,
+        element: (
+          <PrivateRoute>
+            <AboutUs></AboutUs>
+          </PrivateRoute>
+        ),
       },
       {
         path: "/login",

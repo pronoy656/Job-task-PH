@@ -1,7 +1,7 @@
 [
     {
         "phoneName": "iPhone 13",
-        "productImage": "https://example.com/iphone13.jpg",
+        "productImage": "https://adminapi.applegadgetsbd.com/storage/media/large/3408-34138.jpg",
         "priceBDT": 120000,
         "category": "Smartphone",
         "ratings": 4.8,
@@ -10,7 +10,7 @@
     },
     {
         "phoneName": "Samsung Galaxy S21",
-        "productImage": "https://example.com/s21.jpg",
+        "productImage": "https://images-cdn.ubuy.co.in/65790c8b67206a7baf434473-samsung-galaxy-s21-plus-5g-128-256gb.jpg",
         "priceBDT": 85000,
         "category": "Smartphone",
         "ratings": 4.6,
@@ -19,7 +19,7 @@
     },
     {
         "phoneName": "Xiaomi Mi 11",
-        "productImage": "https://example.com/mi11.jpg",
+        "productImage": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1666344667.93946102.png",
         "priceBDT": 55000,
         "category": "Smartphone",
         "ratings": 4.5,
