@@ -26,6 +26,14 @@ const Root = () => {
     <div>
       {noHeaderFooter || <Navbar></Navbar>}
 
+      <div className="flex justify-center max-w-7xl mx-auto mb-10">
+        <img
+          className="rounded-3xl h-[450px] w-full"
+          src="https://i.ibb.co/Gk8vW01/Home-1.png"
+          alt=""
+        />
+      </div>
+
       <div className="flex justify-center">
         <form onSubmit={handleSearch}>
           <input
