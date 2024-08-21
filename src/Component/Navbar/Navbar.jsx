@@ -70,7 +70,7 @@ const Navbar = () => {
         </div>
       ) : (
         <div className="navbar-end">
-          <NavLink to={"/logIn"}>
+          <NavLink to={"/login"}>
             <a className="btn">Sign in</a>
           </NavLink>
         </div>

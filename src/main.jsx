@@ -1,6 +1,6 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import App from "./App.jsx";
+
 import "./index.css";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -10,7 +10,7 @@ import LogIn from "./Component/LogIn/LogIn.jsx";
 import Register from "./Component/Register/Register.jsx";
 import AuthProvider from "./Component/AuthProvider/AuthProvider.jsx";
 import toast, { Toaster } from "react-hot-toast";
-import PrivateRoute from "./Component/PrivateRoute/PrivateRoute.jsx";
+// import PrivateRoute from "./Component/PrivateRoute/PrivateRoute.jsx";
 
 import {
   useQuery,
@@ -19,6 +19,7 @@ import {
   QueryClient,
   QueryClientProvider,
 } from "@tanstack/react-query";
+import Home from "./Component/Home/Home.jsx";
 
 const queryClient = new QueryClient();
 
@@ -28,12 +29,12 @@ const router = createBrowserRouter([
     element: <Root></Root>,
     children: [
       {
+        path: "/",
+        element: <Home></Home>,
+      },
+      {
         path: "/aboutUs",
-        element: (
-          <PrivateRoute>
-            <AboutUs></AboutUs>
-          </PrivateRoute>
-        ),
+        element: <AboutUs></AboutUs>,
       },
       {
         path: "/login",
